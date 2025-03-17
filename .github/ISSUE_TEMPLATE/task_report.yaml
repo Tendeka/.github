@@ -1,0 +1,31 @@
+name: Task/Chore Form
+description: Cretae an issue as a pending task/chore.
+title: ""
+labels: ["type: Task"]
+projects: []
+assignees:
+  - 
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Email address
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Describe the task/chore
+      description: A clear and concise description of what the task/chore is.
+      placeholder: Tell us what you need to do!
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
