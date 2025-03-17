@@ -1,7 +1,8 @@
 name: Bug Report Form
 description: Create a bug report in a form.
 title: ""
-labels: ["type: Bug", "label: bug"]
+labels: bug
+type: bug
 projects: []
 assignees:
   - 
