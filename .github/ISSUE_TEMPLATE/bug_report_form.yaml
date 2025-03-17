@@ -1,30 +1,13 @@
 name: Bug Report Form
 description: Create a bug report in a form.
-title: ""
 labels: ["bug"]
-projects: []
-assignees:
-  - 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Email address
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
       label: Describe the bug?
       description: A clear and concise description of what the bug is.
       placeholder: Tell us what you see!
-      value: 
     validations:
       required: true
   - type: textarea
@@ -37,7 +20,6 @@ body:
         2. Click on '....' 
         3. Scroll down to '....' 
         4. See error
-      value: 
     validations:
       required: true
   - type: textarea
@@ -46,7 +28,6 @@ body:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
       placeholder: Please descirbe what should have happened.
-      value: 
     validations:
       required: true
   - type: textarea
@@ -59,7 +40,6 @@ body:
         - Hardware [e.g. PulseEight, SAU, iPhone 16]
         - Browser [e.g. chrome, safari]
         - Version [e.g. 3.01.02]
-      value: 
     validations:
       required: true
   - type: textarea
@@ -68,7 +48,6 @@ body:
       label: Additonal Context
       description: Add any other context about the problem here.
       placeholder: Tell us anything else you think we should know.
-      value: 
     validations:
       required: false
   - type: textarea

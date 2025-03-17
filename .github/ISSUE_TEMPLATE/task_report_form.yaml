@@ -1,19 +1,7 @@
 name: Task/Chore Form
 description: Cretae a task/chore via a form.
-labels: []
 type: Task
-projects: []
-assignees:
-  - 
 body:
-  - type: input
-    id: email
-    attributes:
-      label: Email address
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: description
     attributes:
