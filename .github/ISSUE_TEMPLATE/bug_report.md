@@ -2,7 +2,8 @@
 name: Bug Report
 about: Create a bug report
 title: ''
-labels: ["type: Bug", "label: bug"]
+labels: bug
+type: Bug
 assignees: ''
 
 ---
