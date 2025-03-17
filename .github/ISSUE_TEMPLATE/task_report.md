@@ -2,7 +2,8 @@
 name: Task/Chore
 about: Cretae an issue as a pending task/chore
 title: ''
-labels: ["type: Task"]
+labels: 
+type: Task
 assignees: ''
 
 ---
