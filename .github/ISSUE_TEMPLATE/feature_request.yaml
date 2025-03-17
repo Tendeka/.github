@@ -1,7 +1,8 @@
 name: Feature Request Form
 description: Suggest a new feature for this project in a form.
 title: ""
-labels: ["type: Feature", "label: enhancement"]
+labels: enhancement
+type: Feature
 projects: []
 assignees:
   - 
