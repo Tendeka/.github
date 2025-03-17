@@ -1,6 +1,5 @@
 name: Task/Chore Form
 description: Cretae a task/chore via a form.
-title: "a"
 labels: []
 type: Task
 projects: []
