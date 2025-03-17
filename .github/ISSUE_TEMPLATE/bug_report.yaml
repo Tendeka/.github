@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report.
+name: Bug Report Form
+description: Create a bug report in a form.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -13,7 +13,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
+      label: Email address
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
@@ -21,44 +21,59 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Describe the bug?
+      description: A clear and concise description of what the bug is.
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: reproduce
     attributes:
-      label: Version
-      description: What version of the firmwar or software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Steps to reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Please descirbe the stpes to reproduce the bug.
+      value: |
+        1. Go to '...' 
+        2. Click on '....' 
+        3. Scroll down to '....' 
+        4. See error
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: expected
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: Please descirbe what should have happened.
+      value: "I should have seen a success message."
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: System
+      description: System (please tell us what system this was running on).
+      placeholder: Please descirbe the system running the software/firmware.
+      value: |
+        - OS: [e.g. Windows 11 or iOS]
+        - Hardware [e.g. PulseEight, SAU, iPhone 16]
+        - Browser [e.g. chrome, safari]
+        - Version [e.g. 3.01.02]
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additonal Context
+      description: Add any other context about the problem here.
+      placeholder: Tell us anything else you think we should know.
+      value: "The device was running really hot"
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
