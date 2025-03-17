@@ -1,5 +1,5 @@
 name: Bug Report Form
-description: Create a bug report in a form.
+description: Create a bug report.
 labels: ["bug"]
 body:
   - type: textarea

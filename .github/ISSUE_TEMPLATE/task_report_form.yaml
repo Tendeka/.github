@@ -1,5 +1,5 @@
 name: Task/Chore Form
-description: Cretae a task/chore via a form.
+description: Cretae a task/chore.
 type: Task
 body:
   - type: textarea
