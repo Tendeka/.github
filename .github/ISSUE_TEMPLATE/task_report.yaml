@@ -1,7 +1,7 @@
 name: Task/Chore Form
 description: Cretae an issue as a pending task/chore in a form.
 title: ""
-labels: 
+labels: []
 type: Task
 projects: []
 assignees:
