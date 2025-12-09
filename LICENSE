@@ -1,0 +1,60 @@
+TAQA – Internal Commercial License Agreement
+Version 1.0 – December 2025
+
+Copyright © ${YEAR} TAQA. All rights reserved.
+
+1. Grant of License
+   TAQA grants the Licensee a limited, non-exclusive, non-transferable,
+   non-sublicensable license to use this software (“Software”) solely for the
+   Licensee’s internal business purposes, and only as expressly authorized in
+   writing by TAQA.
+
+2. Ownership
+   The Software, including all source code, binaries, documentation, and
+   derivative works, is confidential and proprietary to TAQA. No title or
+   ownership rights are transferred.
+
+3. Restrictions
+   The Licensee shall not:
+   - distribute, publish, or disclose the Software to any third party;
+   - modify, reverse engineer, decompile, or create derivative works except as
+     expressly permitted in writing by TAQA;
+   - use the Software in any product or service offered to third parties.
+
+4. Confidentiality
+   The Software constitutes confidential information. The Licensee shall protect
+   it using at least the same degree of care it uses for its own confidential
+   information, and no less than a reasonable standard of care. These
+   obligations survive termination of this Agreement.
+
+5. Third-Party Components
+   The Software may include third-party libraries, packages, binaries, or other
+   components (“Third-Party Components”) that are the property of their
+   respective owners and provided under their own license terms. Nothing in this
+   Agreement modifies, limits, or supersedes the license terms applicable to any
+   Third-Party Components. Licensee’s use of Third-Party Components is subject
+   to their respective licenses. TAQA makes no representations or warranties
+   regarding such components.
+
+6. Termination
+   TAQA may terminate this Agreement at any time upon notice. Upon termination,
+   the Licensee must cease all use of the Software and destroy all copies in its
+   possession or control.
+
+7. Warranty Disclaimer
+   The Software is provided “AS IS,” without warranty of any kind, express or
+   implied, including but not limited to warranties of merchantability, fitness
+   for a particular purpose, non-infringement, accuracy, or performance.
+
+8. Limitation of Liability
+   To the fullest extent permitted by law, TAQA shall not be liable for any
+   indirect, incidental, special, exemplary, punitive, or consequential damages,
+   including loss of profits, business interruption, or loss of data, even if
+   advised of the possibility of such damages.
+
+9. Governing Law
+   This Agreement is governed by and construed in accordance with the laws of
+   the jurisdiction in which TAQA is headquartered, without regard to conflict-
+   of-laws principles.
+
+END OF LICENSE
