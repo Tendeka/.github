@@ -1,0 +1,35 @@
+TAQA – Proprietary Notice
+Version 1.0 – December 2025
+
+This software is the confidential and proprietary property of TAQA.
+Unauthorized copying, distribution, or disclosure of this software,
+in whole or in part, is strictly prohibited.
+
+© ${YEAR} TAQA. All rights reserved.
+
+-------------------------------------------------------------------------------
+Third-Party Licenses and Acknowledgements
+-------------------------------------------------------------------------------
+
+This software may include or depend on third-party libraries, packages,
+components, or tools (“Third-Party Components”). These components remain the
+property of their respective owners and are provided under their own license
+terms.
+
+Nothing in the TAQA Internal Commercial License modifies or supersedes the
+license terms applicable to Third-Party Components.
+
+Copies of all required third-party license texts (MIT, Apache 2.0, BSD, etc.)
+are included in the following locations, depending on the repository structure:
+
+- /third_party/licenses/
+- /licenses/
+- /src/assets/licenses/
+- or as part of package manager dependency metadata (NuGet, npm, etc.)
+
+For convenience, third-party licenses may also be referenced within build
+manifests, dependency lock files, or the package manager’s native documentation.
+
+-------------------------------------------------------------------------------
+End of Notice
+-------------------------------------------------------------------------------
